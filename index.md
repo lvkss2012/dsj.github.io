@@ -19,7 +19,7 @@ axios.get(url, {
     })
 ```
 
-#windows下mysql服务停止后启动失败
+# windows下mysql服务停止后启动失败
 参考 [data-directory-initialization.html](https://dev.mysql.com/doc/mysql-security-excerpt/5.7/en/data-directory-initialization.html)
 > 需要修改my.ini里的datadir和secure-file-priv，于是停止mysql服务，但是重启时报错**本地计算机上的MySQL服务启动后停止。某些服务在未由其他服务或程序使用时将自动停止**。解决方式：
 - 修改my.ini文件里的配置地址
