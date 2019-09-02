@@ -31,11 +31,11 @@ description: ""
 github:
   username: lvkss2012
 swiftype:
-  searchId: iXZydolVfxFaBTvi64Y7
+  searchId: ycwD8pEs_X6sQp39PtDY
 gitment:
     repo: blog
-    client_id: a6fb73b3e790e234bab8
-    client_secret: cc10aaff53a03d05ab2ee002dbf401dd7627c7a3
+    client_id: 3baed82bb6e0df56154d
+    client_secret: 189f679b7c4269fd50fde92bc8dbdf2277e9ca03
 
 url: "https://lvkss2012.github.io/blog"
 imgrepo: "https://lvkss2012.github.io/blog/static/img"
