@@ -9,11 +9,9 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: 刁爷 # add your name
 author-img: avata.jpg # add your photo
-about-author:  # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+about-author: node.js java c++ qt  # add description
 social-github: lvkss2012 # add your Github handle
-social-linkedin: # add your Linkedin handle
+social-qq: 805386312 # add your Linkedin handle
 social-email: 805386312@qq.com # add your Email address
 
 # Disqus
