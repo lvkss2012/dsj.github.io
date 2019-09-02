@@ -1,34 +1,36 @@
-##[点我查看中文说明](https://github.com/dubuyuye/blog/blob/gh-pages/README_zh_CN.md)
+# Flexible-Jekyll is a simple and clean theme for Jekyll
 
-# Blog Address
+![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
-<https://bit-ranger.github.io/blog/>
+## Demo
 
+Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll/)
 
-# Must Modify
+The main page would look like this:
 
-## 1.swiftype
+![Main page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/home-page.jpg?raw=true)
 
-This service provides the on-site search function.
+The post page would look like this:
 
-Service address： <https://swiftype.com/>.
+![Post page preview](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/post-example.jpg?raw=true)
 
-After the setup is complete， you need to modify the `swiftype.searchId` in `_config.yml`.
+## Features
 
-In your swiftype engine, go to `Setup and integration` -> `Install Search`, you could find the `swiftype.searchId`.
+- [Google Fonts](https://fonts.google.com/)
+- [Font Awesome](http://fontawesome.io/)
+- [Disqus](https://disqus.com/)
+- [Analytics](https://analytics.google.com/analytics/web/)
+- Support Emoji
 
-```html
-<script type="text/javascript">
-...
-...
-  _st('install','swiftype.searchId','2.0.0');
-</script>
-```
+## Installation:
 
-## 2.gitment
+Fork the ``master`` branch and follow the [Jekyll Installation Documentation](https://jekyllrb.com/docs/installation/).
 
-This service provides the comment function.
+## License
 
-Service address： <https://github.com/imsun/gitment>.
+GNU General Public License v3.0
 
-After the setup is complete， you need to modify the `gitment`  in `_config.yml`.
+## Donate
+
+<p>If you like the themes that I create you can become my sponsor on <a href="https://www.patreon.com/artemsheludko" target="_blank">Patreon</a>.
+<p align="center"><b>Thank you for your support ❤️</b></p>
