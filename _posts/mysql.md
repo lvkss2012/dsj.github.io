@@ -1,23 +1,35 @@
-# axois获取gbk编码乱码
-
-> 不能让axios的结果直接返回json string，需要对二进制数据处理
-
-> 配置 responseType: 'arraybuffer'，代码如下
-
-```javascript
-const axios = require('axios');
-const iconv = require('iconv-lite');
-
-let url = 'xxxxxxxxxxxxxxxxxx';
-axios.get(url, {
-    responseType: 'arraybuffer'
-})
-    .then(response => {
-        let data = response.data;
-        let con = iconv.decode(data, 'gbk');
-        console.log(con)
-    })
+# 创建存储过程中语法报错
+例如下面的创建存储过程语句，总是提示语法报错：
 ```
+create procedure test1
+	(out a int)
+begin
+	declare b int default 100;
+	set a = b;
+end;
+```
+报错如下：
+```
+Error Code: 1064. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''
+```
+**原因是mysql解释器在遇到分号（；）时就会结束语句，所在在上述创建语句中遇到第一个分号就意味着创建存储过程语句已经结束了，但是begin没有对应的end，所以报错**
+所以修正方法是使用**delimiter**关键字修改mysql解释器的结束符。修正代码如下：
+```
+delimiter $
+create procedure test1
+	(out a int)
+begin
+	declare b int default 100;
+	set a = b;
+end;
+$
+delimiter ;
+```
+在创建完存储过程后记得把结束符恢复成分号
+```
+delimiter ;
+```
+
 
 # windows下mysql服务停止后启动失败
 参考 [data-directory-initialization.html](https://dev.mysql.com/doc/mysql-security-excerpt/5.7/en/data-directory-initialization.html)
