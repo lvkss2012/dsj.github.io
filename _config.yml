@@ -3,7 +3,7 @@ description: > # this means to ignore newlines until "baseurl:"
   技术的足迹
 permalink: ':title/'
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://lvkss2012.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Settings
 author: 刁爷 # add your name
