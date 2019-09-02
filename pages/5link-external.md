@@ -6,4 +6,4 @@ icon: octicon-link-external
 
 ---
 
-### [github](https://lvkss2012.github.io)
+### [github](https://github.com/bit-ranger/blog)

@@ -33,14 +33,10 @@ github:
 swiftype:
   searchId: ycwD8pEs_X6sQp39PtDY
 gitment:
-    repo: blog
-    client_id: 3baed82bb6e0df56154d
-    client_secret: 189f679b7c4269fd50fde92bc8dbdf2277e9ca03
+  repo: blog
+  client_id: 3baed82bb6e0df56154d
+  client_secret: 189f679b7c4269fd50fde92bc8dbdf2277e9ca03
 
 url: "https://lvkss2012.github.io/blog"
 imgrepo: "https://lvkss2012.github.io/blog/static/img"
-
-
-#url: "http://127.0.0.1:4000"
-#imgrepo: "http://127.0.0.1:4000/static/img"
 
